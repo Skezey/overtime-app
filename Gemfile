@@ -19,6 +19,8 @@ group :development, :test do
   gem 'rspec', '~> 3.8'
   gem 'database_cleaner', '~> 1.7'
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
+  gem 'factory_girl', '~> 4.9'
+  gem 'factory_girl_rails', '~> 4.9'
 
 end
 
@@ -27,6 +29,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
 end
 
 group :test do
