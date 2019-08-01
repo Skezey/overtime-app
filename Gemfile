@@ -16,11 +16,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 3.27'
-  gem 'rspec', '~> 3.8'
   gem 'database_cleaner', '~> 1.7'
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
-  gem 'factory_girl', '~> 4.9'
-  gem 'factory_girl_rails', '~> 4.9'
+  gem 'factory_girl_rails', '~> 4.9', require: false
 
 end
 
