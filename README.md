@@ -9,6 +9,3 @@
 
 ## UI
 Bootstrap -> formatting
-
-## Refactor TODOS
-- Refactor user User_association integration test in post_spec
