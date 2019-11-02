@@ -36,5 +36,5 @@ end
 
 
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
-gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'devise', '~> 4.7'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
